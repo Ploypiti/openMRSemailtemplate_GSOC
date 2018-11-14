@@ -1,0 +1,61 @@
+/*openMRS email template
+made with <3 by ploypiti*/
+
+body {
+  background: lightgrey;
+  padding: 80px;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+  background: white;
+  height: 650px;
+  width: 500px;
+  padding: 50px;
+  box-sizing: border-box;
+  margin: auto;
+  /*box-shadow: 3px 0px 25px grey;*/
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.5em;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px 75px 0px;
+}
+
+.left {
+  width: 60%;
+}
+
+.left > p {
+  font-size: 0.7em;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  height: 100px;
+  font-size: 0.8em;
+}
+
+.footer {
+  margin: 0px;
+}
+
+/*unrelated code lol*/
+marquee {
+  font-family: monospace;
+  margin-top: 80px;
+}
